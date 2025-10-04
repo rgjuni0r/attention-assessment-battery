@@ -10,7 +10,7 @@ O alvo (estímulo correto) é o **retângulo metade-esquerda preta / metade-dire
 
 ## Principais características
 
-* **Gerador Web (HTML + SVG)**: abra o arquivo `gerador-folha-40x40-metade-esquerda-v2.html` no navegador, clique em **Regerar** para obter uma nova disposição aleatória e **Baixar SVG** para exportar em alta qualidade.
+* **Gerador Web (HTML + SVG)**: abra o arquivo [`gerador-folha-40x40-metade-esquerda-v2.html`](./gerador-folha-40x40-metade-esquerda-v2.html) no navegador, clique em **Regerar** para obter uma nova disposição aleatória e **Baixar SVG** para exportar em alta qualidade.
 * **Alvo padronizado (50/50)** com moldura de stroke fixo (não varia ao escalar) e *shape-rendering* configurado para nitidez na impressão.
 * **Distratores variados** (barras, diagonais, losango, triplet, quadrantes etc.), definidos como *symbols* SVG para performance e consistência visual.
 * **Impressão nítida** (SVG vetorial) e **estilização via CSS** quando embutido em páginas — pensado para a comunidade web que deseja integrar o teste diretamente em sites/aplicações.
@@ -24,26 +24,27 @@ O alvo (estímulo correto) é o **retângulo metade-esquerda preta / metade-dire
 * **Crivo (alvos por linha)**: `TARGETS_PER_ROW = [7,5,7,5,...]`
 * **Alvo**: `#target` (metade esquerda preta, metade direita branca)
 * **Distratores**: `bar-right`, `bar-top`, `bar-bottom`, `bar-center`, `diag-fwd`, `diag-back`, `tri-edges`, `top-and-right`, `diamond`, `triplet`, `quad-UL`, `quad-LR`
-* **Exportação**: botão “Baixar SVG” salva como `folha-simbolos-40x40-metade-esquerda.svg`.
+* **Exportação**: botão “Baixar SVG” salva como [`folha-simbolos-40x40-metade-esquerda-v2.svg`](./folha-simbolos-40x40-metade-esquerda-v2.svg).
 
-> Todos os itens acima estão definidos no HTML/SVG do gerador e podem ser ajustados no código caso você queira um outro formato de grade, espaçamento ou conjunto de distratores.
+> Todos os itens acima estão definidos no HTML/SVG do gerador e podem ser ajustados no código caso você queira outro formato de grade, espaçamento ou conjunto de distratores.
 
 ---
 
 ## Como usar
 
-1. **Abrir** `gerador-folha-40x40-metade-esquerda-v2.html` no navegador.
+1. **Abrir** [`gerador-folha-40x40-metade-esquerda-v2.html`](./gerador-folha-40x40-metade-esquerda-v2.html) no navegador.
 2. Clicar em **Regerar** para produzir uma nova variação (randomizada).
 3. Clicar em **Baixar SVG** para salvar a folha final e imprimir em A4 ou incorporar onde desejar.
 4. **Impressão recomendada**: sem “Ajustar à página”, margens mínimas e qualidade alta (o SVG é vetorial).
 
-Se preferir, utilize diretamente os SVGs incluídos no repositório, como `folha-simbolos-40x40-metade-esquerda-v2.svg`.
+Se preferir, utilize diretamente o SVG exportado: [`folha-simbolos-40x40-metade-esquerda-v2.svg`](./folha-simbolos-40x40-metade-esquerda-v2.svg).
 
 ---
 
 ## CSS / Web (por que “imagens em CSS”?)
 
-Os símbolos foram pensados para **uso web**, com formas vetoriais (SVG) que podem ser **estilizadas via CSS** (por exemplo, controle de stroke, fill e escala sem perda). Isso facilita a vida de quem constrói **sites e aplicações** que precisam gerar, exibir ou imprimir o teste diretamente no navegador — sem depender de imagens rasterizadas.
+Os símbolos foram pensados para **uso web**, com formas vetoriais (SVG) que podem ser **estilizadas via CSS** (por exemplo, controle de stroke, fill e escala sem perda).
+Isso facilita a vida de quem constrói **sites e aplicações** que precisam gerar, exibir ou imprimir o teste diretamente no navegador — sem depender de imagens rasterizadas.
 
 Exemplo simples de estilização:
 
@@ -105,15 +106,15 @@ Este projeto é distribuído sob as seguintes licenças:
 > “Folha 40×40 e símbolos do Teste de Atenção Concentrada (BPA) por **Rogério Moreira Alves Júnior / abc Ensina** — repositório público (MIT para código / CC BY 4.0 para SVGs).”
 
 **Contribuições:**
-Ao enviar uma contribuição (issue ou pull request), o colaborador declara possuir os direitos sobre o material submetido e **aceita a distribuição sob as mesmas licenças** (MIT e CC BY 4.0, conforme aplicável).
+Ao enviar uma contribuição (issue ou pull request), o colaborador declara possuir os direitos sobre o material submetido e **aceita a distribuição sob as mesmas licenças** ([MIT](./LICENSE) e [CC BY 4.0](./ASSETS-LICENSE), conforme aplicável).
 
 ---
 
 ## Arquivos relevantes
 
-* `gerador-folha-40x40-metade-esquerda-v2.html` — gerador com botões **Regerar** e **Baixar SVG**.
-* `folha-simbolos-40x40-metade-esquerda-v2.svg` — exemplo de folha exportada.
-* `alvo-metade-esquerda-40x40-v2.svg` — símbolo de alvo isolado.
+* [`gerador-folha-40x40-metade-esquerda-v2.html`](./gerador-folha-40x40-metade-esquerda-v2.html) — gerador com botões **Regerar** e **Baixar SVG**.
+* [`folha-simbolos-40x40-metade-esquerda-v2.svg`](./folha-simbolos-40x40-metade-esquerda-v2.svg) — exemplo de folha exportada.
+* [`alvo-metade-esquerda-40x40-v2.svg`](./alvo-metade-esquerda-40x40-v2.svg) — símbolo de alvo isolado.
 
 ---
 
@@ -128,8 +129,6 @@ A iniciativa busca **compartilhar conhecimento, facilitar a reprodução de mate
 
 ✅ **Pronto para uso:**
 
-* `README.md` — documentação completa
-* `LICENSE` — licença MIT (código)
-* `ASSETS-LICENSE` — licença CC BY 4.0 (assets)
-
-
+* [`README.md`](./README.md) — documentação completa
+* [`LICENSE`](./LICENSE) — licença MIT (código)
+* [`ASSETS-LICENSE`](./ASSETS-LICENSE) — licença CC BY 4.0 (assets)
