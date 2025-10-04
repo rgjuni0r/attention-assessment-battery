@@ -76,8 +76,9 @@ Exemplo simples de estilização:
 
 ## Limitações e responsabilidade de uso
 
-Este material **não substitui** instrumentos padronizados, manuais técnicos e a atuação de **profissionais habilitados**. A aplicação, correção e interpretação de testes psicológicos devem seguir a legislação e diretrizes do conselho profissional competente.
-Use este gerador como **apoio técnico/visual** para estudos, desenvolvimento de ferramentas e treinamentos.
+Este material **não substitui** instrumentos padronizados, manuais técnicos e a atuação de **profissionais habilitados**.
+A aplicação, correção e interpretação de testes psicológicos devem seguir a legislação e diretrizes do conselho profissional competente.
+Use este gerador como **apoio técnico e visual** para fins educacionais, científicos e de desenvolvimento de ferramentas.
 
 ---
 
@@ -97,13 +98,14 @@ Use este gerador como **apoio técnico/visual** para estudos, desenvolvimento de
 
 Este projeto é distribuído sob as seguintes licenças:
 
-* **Código-fonte (HTML/JS/CSS):** Licenciado sob a **MIT License** — uso, modificação e redistribuição livres, inclusive para fins comerciais, desde que mantido o aviso de copyright.
-* **Recursos gráficos (SVGs, ícones e variações de estímulos):** Licenciados sob **Creative Commons Attribution 4.0 International (CC BY 4.0)** — reutilização livre com **atribuição obrigatória** ao autor e ao repositório.
+* **Código-fonte (HTML/JS/CSS):** Licenciado sob a [MIT License](./LICENSE) — uso, modificação e redistribuição livres, inclusive para fins comerciais, desde que mantido o aviso de copyright.
+* **Recursos gráficos (SVGs, ícones e variações de estímulos):** Licenciados sob [Creative Commons Attribution 4.0 International (CC BY 4.0)](./ASSETS-LICENSE) — reutilização livre com **atribuição obrigatória** ao autor e ao repositório.
 
 > **Atribuição sugerida:**
 > “Folha 40×40 e símbolos do Teste de Atenção Concentrada (BPA) por **Rogério Moreira Alves Júnior / abc Ensina** — repositório público (MIT para código / CC BY 4.0 para SVGs).”
 
-**Contribuições:** Ao enviar uma contribuição (issue/PR), o colaborador declara ter direito sobre o material submetido e **aceita a distribuição sob as mesmas licenças** (MIT e CC BY 4.0, conforme aplicável).
+**Contribuições:**
+Ao enviar uma contribuição (issue ou pull request), o colaborador declara possuir os direitos sobre o material submetido e **aceita a distribuição sob as mesmas licenças** (MIT e CC BY 4.0, conforme aplicável).
 
 ---
 
@@ -118,7 +120,16 @@ Este projeto é distribuído sob as seguintes licenças:
 ## Propósito colaborativo
 
 O propósito deste repositório é **fortalecer uma rede colaborativa entre desenvolvedores, designers e pesquisadores** interessados em criar e aprimorar recursos gráficos e digitais para testes psicológicos, especialmente o **Teste de Atenção Concentrada (BPA)**.
-A intenção é **compartilhar conhecimento e facilitar o acesso** a materiais abertos e de qualidade técnica, estimulando contribuições que aprimorem o formato, usabilidade e integração com novas tecnologias.
+A iniciativa busca **compartilhar conhecimento, facilitar a reprodução de materiais e inspirar inovações abertas** em tecnologias aplicadas à avaliação psicológica.
 
 > Se você também acredita que ciência e tecnologia evoluem melhor **com código aberto e cooperação**, este projeto é para você. 💡🤝
+
+---
+
+✅ **Pronto para uso:**
+
+* `README.md` — documentação completa
+* `LICENSE` — licença MIT (código)
+* `ASSETS-LICENSE` — licença CC BY 4.0 (assets)
+
 
