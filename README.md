@@ -8,6 +8,15 @@ O alvo (estímulo correto) é o **retângulo metade-esquerda preta / metade-dire
 
 ---
 
+## Propósito colaborativo
+
+O propósito deste repositório é **fortalecer uma rede colaborativa entre desenvolvedores, designers e pesquisadores** interessados em criar e aprimorar recursos gráficos e digitais para testes psicológicos, especialmente o **Teste de Atenção Concentrada (BPA)**.
+A iniciativa busca **compartilhar conhecimento, facilitar a reprodução de materiais e inspirar inovações abertas** em tecnologias aplicadas à avaliação psicológica.
+
+> Se você também acredita que ciência e tecnologia evoluem melhor **com código aberto e cooperação**, este projeto é para você. 💡🤝
+
+---
+
 ## Principais características
 
 * **Gerador Web (HTML + SVG)**: abra o arquivo [`gerador-folha-40x40-metade-esquerda-v2.html`](./gerador-folha-40x40-metade-esquerda-v2.html) no navegador, clique em **Regerar** para obter uma nova disposição aleatória e **Baixar SVG** para exportar em alta qualidade.
@@ -115,15 +124,6 @@ Ao enviar uma contribuição (issue ou pull request), o colaborador declara poss
 * [`gerador-folha-40x40-metade-esquerda-v2.html`](./gerador-folha-40x40-metade-esquerda-v2.html) — gerador com botões **Regerar** e **Baixar SVG**.
 * [`folha-simbolos-40x40-metade-esquerda-v2.svg`](./folha-simbolos-40x40-metade-esquerda-v2.svg) — exemplo de folha exportada.
 * [`alvo-metade-esquerda-40x40-v2.svg`](./alvo-metade-esquerda-40x40-v2.svg) — símbolo de alvo isolado.
-
----
-
-## Propósito colaborativo
-
-O propósito deste repositório é **fortalecer uma rede colaborativa entre desenvolvedores, designers e pesquisadores** interessados em criar e aprimorar recursos gráficos e digitais para testes psicológicos, especialmente o **Teste de Atenção Concentrada (BPA)**.
-A iniciativa busca **compartilhar conhecimento, facilitar a reprodução de materiais e inspirar inovações abertas** em tecnologias aplicadas à avaliação psicológica.
-
-> Se você também acredita que ciência e tecnologia evoluem melhor **com código aberto e cooperação**, este projeto é para você. 💡🤝
 
 ---
 
